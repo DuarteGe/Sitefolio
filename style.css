@@ -4,10 +4,61 @@ body{
     background-color: #00c4cc;
 }
 main{
-    background-color: white;
-    
+    margin: auto;
+}
+
+.pred{
+    display: flex;
+    align-content: center;
+    max-width: 400px;
+    min-width: 150px;
+    padding: 10px;
+    height: 80px;
+    margin: auto;
+    background-image: url('IMG/parede.jpg');
+    border: 1px solid black;
     
 }
+.janela{
+    display: inline-block;
+    width: 40px;
+    height: 60px;
+    background-image: url('IMG/janela.png.png');  
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.janela:hover{
+    cursor:pointer;
+}
+.base{
+    display: flex;
+    align-content: center;
+    max-width: 400px;
+    min-width: 150px;
+    padding: 10px;
+    height: 150px;
+    margin: auto;
+    background-color: grey;
+    /*background-image: url('IMG/parede.jpg');*/
+    border: 1px solid black;
+}
+#porta{
+    margin: auto;
+    padding-bottom: 0px;
+    width: 150px;
+    height: 130px;
+    background-image: url('IMG/porta.png.png');
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+#porta:hover{
+    cursor:pointer;
+}
+
 footer{
+    background-color: black;
+    margin: 0px;
+    padding: 0%;
 
 }
