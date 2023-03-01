@@ -4,28 +4,34 @@ body{
     background-color: #00c4cc;
 }
 main{
+    display: flex;
+    flex-direction: column;
     margin: auto;
 }
 
 .pred{
     display: flex;
+    flex-direction: row;
     align-content: center;
-    width: 390px;
+    justify-content:space-evenly;
+    width: 400px;
     height: 380px;
-    background-image: url('IMG/AndarConst.png');
+    background-image: url('IMG/Andar.png');
     background-repeat: no-repeat;
     margin: auto;
+    margin-bottom: -220px;
 
     
 }
 .janela{
-    display: inline-block;
-    width: 40px;
-    height: 60px;
-    background-image: url('IMG/janela.png.png');  
-    border: 1px solid black;
+    /*display: inline-block;*/
+    width: 80px;
+    height: 112px;
+    background-image: url('IMG/Janela.png');  
     background-repeat: no-repeat;
-    margin-bottom: 10px;
+    margin-left: -45px;
+    margin-top: 20px;
+    
 }
 
 .janela:hover{
@@ -33,24 +39,21 @@ main{
 }
 .base{
     display: flex;
+    flex-direction: row;
     align-content: center;
-    max-width: 400px;
-    min-width: 150px;
-    padding: 10px;
+    justify-content:space-evenly;
+    width: 400px;
     height: 380px;
     margin: auto;
-    margin-top: 0px;
-    background-image: url(IMG/BaseConvert.png);
+    background-image: url('IMG/Base.png');
     background-repeat: no-repeat;
 }
 #porta{
-    margin: auto;
-    padding-bottom: 0px;
-    width: 150px;
-    height: 130px;
-    background-image: url('IMG/porta.png.png');
+    width: 200px;
+    height: 155px;
+    background-image: url('IMG/porta.png');
     background-repeat: no-repeat;
-    margin-bottom: 0px;
+    
 }
 #porta:hover{
     cursor:pointer;
