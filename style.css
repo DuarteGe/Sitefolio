@@ -8,6 +8,13 @@ main{
     flex-direction: column;
     margin: auto;
 }
+#emconst{
+    margin: auto;
+    margin-bottom: 0px;
+    width: 400px;
+    height: 180px;
+    background-image: url('IMG/emconst.png');
+}
 
 .pred{
     display: flex;
@@ -15,7 +22,7 @@ main{
     align-content: center;
     justify-content:space-evenly;
     width: 400px;
-    height: 380px;
+    height: 400px;
     background-image: url('IMG/Andar.png');
     background-repeat: no-repeat;
     margin: auto;
@@ -25,11 +32,10 @@ main{
 }
 .janela{
     /*display: inline-block;*/
-    width: 80px;
-    height: 112px;
+    width: 115px;
+    height: 130px;
     background-image: url('IMG/Janela.png');  
     background-repeat: no-repeat;
-    margin-left: -45px;
     margin-top: 20px;
     
 }
@@ -43,14 +49,15 @@ main{
     align-content: center;
     justify-content:space-evenly;
     width: 400px;
-    height: 380px;
+    height: 310px;
     margin: auto;
     background-image: url('IMG/Base.png');
     background-repeat: no-repeat;
+    
 }
 #porta{
     width: 200px;
-    height: 155px;
+    height: 190px;
     background-image: url('IMG/porta.png');
     background-repeat: no-repeat;
     
