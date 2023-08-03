@@ -1,13 +1,31 @@
 @charset "UTF-8";
 
 body{
+    height: 98vh;
     background-color: #00c4cc;
+    background-image: url('IMG/Gato.png');
+    background-position: center right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+
 }
 main{
     display: flex;
     flex-direction: column;
     margin: auto;
 }
+div#chule{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-image: url('IMG/Gato.png');
+    background-position: center center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+}
+
 #emconst{
     margin: auto;
     margin-bottom: 0px;
