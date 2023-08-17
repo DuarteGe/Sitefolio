@@ -3,11 +3,7 @@
 body{
     height: 98vh;
     background-color: #00c4cc;
-    background-image: url('IMG/Gato.png');
-    background-position: center right;
     background-size: 200px;
-    background-repeat: no-repeat;
-    transform: scaleX(-1);
 
 }
 main{
@@ -19,11 +15,11 @@ div#chule{
     height: 200px;
     width: 200px;
     border: 1px solid black;
-    background-image: url('IMG/Gato.png');
-    background-position: center center;
+    background-image: url(IMG/Gato.png);
+    background-position: left center;
     background-size: 200px;
     background-repeat: no-repeat;
-    transform: scaleX(-1);
+
 }
 
 #emconst{
@@ -71,6 +67,7 @@ div#chule{
     margin: auto;
     background-image: url('IMG/Base.png');
     background-repeat: no-repeat;
+    
     
 }
 #porta{
